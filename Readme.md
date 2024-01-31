@@ -140,3 +140,10 @@ docker network create -d bridge mynetwork
 ```
 docker run -it --network-mynetwork --name tony_stark ubuntu
 ```
+
+##### volume mounting
+```
+docker run -it -v /d/"github repository"/Docker:/home/docker-app ubuntu
+```
+
+###### mounting the machines directory to container to prevent data loss when container is destroyed
