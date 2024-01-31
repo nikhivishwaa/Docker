@@ -147,3 +147,5 @@ docker run -it -v /d/"github repository"/Docker:/home/docker-app ubuntu
 ```
 
 ###### mounting the machines directory to container to prevent data loss when container is destroyed
+
+###### `.dockerignore` file (like .gitignore)
